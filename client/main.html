@@ -1,10 +1,35 @@
-<template name="page">
-    <h1>MY PAGE</h1>
-</template>
 <template name="mainLayout">
-    <h1>FIRST SITE DEPLOY</h1>
-    {{> yield }}
-</template>
-<template name="home">
-    <h1>HOMEPAGE</h1>
+	{{> home}}
+	<!-- {{> topmenu}}
+	<div class="container-fluid content">
+		<div class="row">
+			{{> leftsinger}}
+			<div style="min-height: 280px;" class="col-md-10 col-sm-11 main ">
+				<div class="row">
+					<div class="col-lg-9 discussions">
+						{{> yield }}
+					</div>
+					{{> rightside}}
+				</div>
+			</div>
+		</div>
+	</div> --> 
+	<!-- {{#if Ishome}}
+		{{> index}}
+	{{else}} -->
+		<!-- {{> topmenu}}
+		<div class="container-fluid content">
+			<div class="row">
+				{{> leftsinger}}
+				<div style="min-height: 280px;" class="col-md-10 col-sm-11 main ">
+					<div class="row">
+						<div class="col-lg-9 discussions">
+							{{> yield }}
+						</div>
+						{{> rightside}}
+					</div>
+				</div>
+			</div>
+		</div> -->
+	<!-- {{/if}} -->
 </template>
